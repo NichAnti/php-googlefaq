@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: sans-serif;
+  color: #5f6368;
+}
+
+nav {
+  padding: 24px 24px 0 24px;
+}
+
+nav > .logo-title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-title img {
+  height: 24px;
+  width: 74px;
+}
+
+.logo-title h1 {
+  margin: 0 7px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+nav .menu {
+  border-bottom: 1px solid;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.menu span {
+  margin-right: 42px;
+  font-size: 15px;
+  font-weight: 600;
+}
