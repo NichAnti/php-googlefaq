@@ -8,7 +8,9 @@
 }
 
 nav {
+  position: sticky;
   padding: 24px 24px 0 24px;
+  border-bottom: 1px solid rgba(151,151,151,0.5);
 }
 
 nav > .logo-title {
@@ -28,14 +30,37 @@ nav > .logo-title {
 }
 
 nav .menu {
-  border-bottom: 1px solid;
   padding-top: 15px;
-  padding-bottom: 5px;
   display: flex;
 }
 
 .menu span {
+  display: inline-block;
+  padding-bottom: 5px;
   margin-right: 42px;
   font-size: 15px;
   font-weight: 600;
+}
+
+.menu span.selected {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+main {
+  max-width: 978px;
+  margin: auto;
+  padding: 32px;
+}
+
+main .question {
+  margin-top: 64px;
+}
+
+main .answer {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: .2px;
+  line-height: 24px;
+  font-size: 14px;
 }
